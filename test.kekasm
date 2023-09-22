@@ -1,0 +1,8 @@
+--mem=[4, 9, -1];
+
+LOAD 0, REG0;
+LOAD 1, REG1;
+
+MAX REG0, REG1, REG2;
+
+STORE REG2, 2;
