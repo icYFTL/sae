@@ -7,3 +7,5 @@ from .max_command import MaxCommand
 from .mul_command import MulCommand
 from .store_command import StoreCommand
 from .sub_command import SubCommand
+from .awhile_command import AwhileCommand
+from .jnz_command import JnzCommand

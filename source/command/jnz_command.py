@@ -3,10 +3,10 @@ from ..enums import CommandType
 from ..utils import get_reg_by_code
 
 
-class JzCommand(BaseLogicCommand):
-    Operation = 'JZ'
+class JnzCommand(BaseLogicCommand):
+    Operation = 'JNZ'
     ArgCount = 4
-    BinCode = bin(4)
+    BinCode = bin(12)
     BinType = CommandType.Logical
 
     def __init__(self, regs, memory, args):
